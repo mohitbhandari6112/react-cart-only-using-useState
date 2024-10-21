@@ -1,0 +1,54 @@
+.home {
+  margin-top: 124px;
+  padding-bottom: 48px;
+}
+.main-heading {
+  font-size: 64px;
+  line-height: 55px;
+  font-weight: 500;
+  margin-bottom: 54px;
+  @media (max-width: 1024px) {
+    font-size: 54px;
+    line-height: 44px;
+  }
+}
+.hero-content-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -24px;
+}
+.hero-col-1 {
+  p {
+    font-size: 30px;
+    margin-bottom: 24px;
+    @media (max-width: 1024px) {
+      font-size: 22px;
+    }
+  }
+  .btn-shop {
+    display: inline-flex;
+    gap: 8px;
+    padding: 14px 24px;
+    background: #115e59;
+    color: #fff;
+    border-radius: 12px;
+    transition: background 0.3s ease-in-out;
+    margin-bottom: 24px;
+    &:hover {
+      background: #296e6a;
+    }
+  }
+}
+.hero-col-2 {
+  img {
+    border-radius: 12px;
+  }
+}
+.hero-col-1,
+.hero-col-2 {
+  width: 50%;
+  padding: 0 24px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

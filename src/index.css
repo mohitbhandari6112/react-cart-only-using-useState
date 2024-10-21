@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container-l {
+  max-width: 1470px;
+  margin: auto;
+  padding: 0 15px;
+}
+.container-box {
+  max-width: 1270px;
+  margin: auto;
+  padding: 0 15px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
